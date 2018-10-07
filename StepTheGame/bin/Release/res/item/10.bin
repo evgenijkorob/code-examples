@@ -1,0 +1,6 @@
+item_name= Ампула next
+weight= 1
+item_type= medicine
+power= 100
+speed= 3000
+end

@@ -1,0 +1,10 @@
+item_name= ÑÂÄ next
+weight= 6
+item_type= pistol
+power= 200
+distance= 80000
+speed= 1500
+reload= 5000
+max_bull= 10
+bull_id= 8
+end

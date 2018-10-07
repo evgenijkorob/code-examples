@@ -1,0 +1,11 @@
+item_name= Автомат Калашникова next
+weight= 5
+item_type= machine_gun
+power= 70
+distance= 40000
+speed= 700
+speed2= 100
+reload= 5000
+max_bull= 30
+bull_id= 6
+end

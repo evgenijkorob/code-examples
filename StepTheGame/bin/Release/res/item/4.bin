@@ -1,0 +1,6 @@
+item_name= Лечебная настойка next
+weight= 1
+item_type= medicine
+power= 20
+speed= 3000
+end

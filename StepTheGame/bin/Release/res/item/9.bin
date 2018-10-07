@@ -1,0 +1,6 @@
+item_name= Аптечка next
+weight= 1
+item_type= medicine
+power= 50
+speed= 5000
+end

@@ -1,0 +1,10 @@
+item_name= Пистолет Макарова next
+weight= 1
+item_type= pistol
+power= 50
+distance= 5000
+speed= 600
+reload= 2800
+max_bull= 8
+bull_id= 2
+end

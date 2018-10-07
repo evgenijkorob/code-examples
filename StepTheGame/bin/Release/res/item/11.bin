@@ -1,0 +1,7 @@
+item_name= Стальная труба next
+weight= 3
+item_type= knife
+power= 45
+distance= 230
+speed= 1000
+end

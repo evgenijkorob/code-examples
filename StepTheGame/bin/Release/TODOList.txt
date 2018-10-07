@@ -1,0 +1,46 @@
+Бой в режиме реального времени.
+Возможность уклонения от воздушных атак.
+
+Перед описанием предмета указать вес:
+Вес: %d
+/*описание*/
+
+Сила оружия будет отображаться черточками.
+урон = (нач.скор. * калибр)/56.7
+
+В рукопашную можно только повалить зомби.
+Здоровье зомби не отображается.
+
+Создать энциклопедию с описанием различных видов зомби.
+
+Локация меняется при помощи set loc=
+
+МАССИВ УКАЗАТЕЛЕЙ НА РАЗНЫЕ ОБЪЕКТЫ!!!!!!!!
+
+vector<Item*> v;
+v.push_back(new Pistol(...));
+int sqr = ((Pistol*)v[0])->а;
+
+
+#include <vector>
+#include <algorithm>
+
+vecIntSecond.reserve(int)//резервируем место
+vecIntSecond.size()//размер
+vecIntSecond.front()//возвращает первый
+vecIntSecond.back()// возвращает последний
+vecIntSecond.push_back()//вставляем в конец
+vecIntSecond.pop_back()//удаляем последний
+vecIntSecond.pop_front()//удаляем первый
+vecIntSecond.erase(vecIntSecond.begin()+2, vecIntSecond.begin()+6)//удаляем со 2го по 6й
+swap(vecIntSecond[1], vecIntSecond[3])//меняем местами 1й с 3м
+vecIntSecond.clear()//очистить вектор
+sort(vecIntSecond, vecIntSecond+vecIntSecond.size())//сортировка по возрастанию
+vecIntSecond.empty()//тип bool
+copy(myArray, myArray+6, ostream_iterator<int>(cout," "));
+
+#include <sstream>
+
+ostringstream full_name;
+full_name << this->last_name << " " << this->name << " " << this->second_name;
+return full_name.str();

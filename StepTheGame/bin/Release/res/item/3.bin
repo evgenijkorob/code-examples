@@ -1,0 +1,7 @@
+item_name= Деревянная палка next
+weight= 2
+item_type= knife
+power= 35
+distance= 150
+speed= 500
+end
